@@ -24,7 +24,7 @@ let package = Package(
             exclude: [],
             publicHeadersPath:"include",
             linkerSettings: [
-                .linkedLibrary("/Sources/iHealthiOS/iHealthSDK2.7.6/iHealthSDK2.7.6.a")
+                .linkedLibrary("iHealthSDK2.7.6/iHealthSDK2.7.6.a")
             ]),
 //        .binaryTarget(name: "iHealthSDK2.7.6", path: "./Sources/iHealthiOS/iHealthSDK2.7.8.zip"),
 //        .testTarget(
