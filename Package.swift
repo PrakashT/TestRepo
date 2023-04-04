@@ -20,9 +20,20 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "iHealthiOS",
-            dependencies: []),
-        .testTarget(
-            name: "iHealthiOSTests",
-            dependencies: ["iHealthiOS"]),
+            dependencies: [],
+            exclude: [],
+            publicHeadersPath:"include",
+            linkerSettings: [
+                .linkedLibrary("./Sources/iHealthiOS/iHealthSDK2.7.6/iHealthSDK2.7.6.a")
+            ]),
+//        .binaryTarget(name: "iHealthSDK2.7.6", path: "./Sources/iHealthiOS/iHealthSDK2.7.8.zip"),
+//        .testTarget(
+//            name: "iHealthiOSTests",
+//            dependencies: ["iHealthiOS"],path: nil,
+//            exclude: [],
+//            sources: nil,
+//            cSettings: nil, cxxSettings: nil, swiftSettings: nil,
+//            linkerSettings: nil),
     ]
 )
+//x-xcode-log://B1B1A01B-44E4-4BB8-BE3C-7E7F1344139E public headers ("include") directory path for 'iHealthiOS' is invalid or not contained in the target
