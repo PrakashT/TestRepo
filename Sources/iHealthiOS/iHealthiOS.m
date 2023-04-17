@@ -6,8 +6,5 @@
 //
 
 
-#import "iHealthiOS.h"
-
-@implementation iHealthiOS
-@end
+#import <Foundation/Foundation.h>
 
