@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <iHealthSDK/iHealthSDK.h>
+#import <iHealthSDK.h>
 
 //#import "iHealthSDK"
 //#import <iHealthSDK/IHSDKCloudUser.h>
