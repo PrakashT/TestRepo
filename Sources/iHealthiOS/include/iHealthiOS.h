@@ -8,18 +8,21 @@
 //#import "iHealthSDK/Headers/IHSDKCloudUser.h"
 
 #import <Foundation/Foundation.h>
-//#import "iHealthSDK"
-#import <iHealthSDK/IHSDKCloudUser.h>
 
-#import <iHealthiOS/iHealthSDK2.7.6/Headers/ScanDeviceController.h>
-#import <iHealthSDK2.7.6/Headers/HealthHeader.h>
-#import <iHealthSDK2.7.6/BPHeader.h>
-#import <BPMacroFile.h>
+#import <iHealthSDK/iHealthSDK.h>
+
+//#import "iHealthSDK"
+//#import <iHealthSDK/IHSDKCloudUser.h>
 //
-#import <iHealthHS6.h>
-#import <BP5S.h>
-#import <iHealthSDK2.7.6/Headers/BG5.h>
-#import <iHealthSDK2.7.6/Headers/BG5S.h>
+//#import <iHealthiOS/iHealthSDK2.7.6/Headers/ScanDeviceController.h>
+//#import <iHealthSDK2.7.6/Headers/HealthHeader.h>
+//#import <iHealthSDK2.7.6/BPHeader.h>
+//#import <BPMacroFile.h>
+////
+//#import <iHealthHS6.h>
+//#import <BP5S.h>
+//#import <iHealthSDK2.7.6/Headers/BG5.h>
+//#import <iHealthSDK2.7.6/Headers/BG5S.h>
 //#import <BGHeader.h>
 //#import <HSHeader.h>
 //#import <AMHeader.h>
