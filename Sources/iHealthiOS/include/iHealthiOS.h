@@ -7,7 +7,7 @@
 
 //#import "iHealthSDK/Headers/IHSDKCloudUser.h"
 
-
+#import <Foundation/Foundation.h>
 //#import "iHealthSDK"
 #import <iHealthSDK/IHSDKCloudUser.h>
 
@@ -34,4 +34,3 @@
 //#import <DFUHeader.h> //BG5S
 
 
-#import <Foundation/Foundation.h>

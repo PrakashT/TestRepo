@@ -28,4 +28,3 @@ let package = Package(
             dependencies: ["iHealthiOS"]),
     ]
 )
-//x-xcode-log://B1B1A01B-44E4-4BB8-BE3C-7E7F1344139E public headers ("include") directory path for 'iHealthiOS' is invalid or not contained in the target
