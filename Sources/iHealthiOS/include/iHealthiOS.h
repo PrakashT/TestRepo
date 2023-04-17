@@ -9,7 +9,7 @@
 
 
 //#import "iHealthSDK"
-#import <iHealthSDK2.7.6/IHSDKCloudUser.h>
+#import <iHealthSDK/IHSDKCloudUser.h>
 
 #import <iHealthiOS/iHealthSDK2.7.6/Headers/ScanDeviceController.h>
 #import <iHealthSDK2.7.6/Headers/HealthHeader.h>
